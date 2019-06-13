@@ -7,7 +7,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    
+
  
   </head>
 
@@ -28,12 +28,14 @@
 
       </div>
 
-      <div class="col-5">
+      <div class="col-5 links">
         <%= link_to 'Contribute', '#' %>
         <%= link_to 'About', '#' %>
       </div>
 
     </header>
+
+    <hr />
     <br class="clear" />
 
     <%= yield %>
